@@ -8,12 +8,12 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     private TextView plList;
-
+//hello
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        plList = findViewById(R.id.tv_pl_names).;
+        plList = findViewById(R.id.tv_pl_names);
         //String[] names = {"БИЛЕТЫ.","", "", "Экскурсионная группа на автобус.", "Маршрут:" , " Из Горно-Алтайска в Артыбаш.","","В группе будет:", "9 взрослых,", "5 пенсионеров,", "11 детей.", "", "Взрослый билет-", "cтоит: 70 руб.","", "Детский билет-","cтоит: 35 руб.", "", "Пенсионный билет-","cтоит: 49 руб.", "" ,"Общая цена на группу: 1260 руб.", "", "Время пути - 4 часа 30 минут."};
 
         float price = 70;
